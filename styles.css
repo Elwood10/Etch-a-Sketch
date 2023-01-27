@@ -1,0 +1,16 @@
+.row {
+	background: gray;
+	border: black 1px solid;
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 0;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+}
+.coll {
+	display: block;
+	float: left;
+	width: 100%;
+}
