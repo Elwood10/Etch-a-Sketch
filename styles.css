@@ -1,8 +1,8 @@
 .row {
 	background: gray;
 	border: black 1px solid;
-	width: 30px;
-	height: 30px;
+	width: 10px;
+	height: 10px;
 	margin: 0 auto;
 	margin-top: 0;
 	cursor: pointer;
@@ -13,4 +13,15 @@
 	display: block;
 	float: left;
 	width: 100%;
+}
+.yellow {
+	background: yellow;
+	border: black 1px solid;
+	width: 10px;
+	height: 10px;
+	margin: 0 auto;
+	margin-top: 0;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
 }
