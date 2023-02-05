@@ -1,6 +1,13 @@
+.outer {
+	width: 600px;
+	height: 600px;
+	border: 1px solid black;
+	margin: auto;
+}
+
 .row {
 	background: gray;
-	border: black 1px solid;
+	border: black 0px solid;
 	width: 10px;
 	height: 10px;
 	margin: 0 auto;
@@ -9,19 +16,24 @@
 	display: inline-block;
 	float: left;
 }
+
 .coll {
 	display: block;
 	float: left;
 	width: 100%;
 }
-.yellow {
-	background: yellow;
-	border: black 1px solid;
-	width: 10px;
-	height: 10px;
-	margin: 0 auto;
-	margin-top: 0;
-	cursor: pointer;
-	display: inline-block;
-	float: left;
+
+h2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: fit-content;
+}
+.butcon {
+	padding-top: 5px;
+	height: fit-content;
+	width: fit-content;
+	margin: auto;
+}
+.button {
+	font-size: x-large;
 }

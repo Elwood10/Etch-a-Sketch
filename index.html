@@ -9,7 +9,23 @@
 		<script src="script.js" defer></script>
 	</head>
 	<body>
-		<div></div>
-		<div id="container"></div>
+		<div id="title">
+			<h2 class="title">Etch-a-Sketch</h2>
+		</div>
+		<div class="outer">
+			<div id="container"></div>
+		</div>
+   <div class="butcon">
+    <div id="button">
+      <button onClick=change("red")>Red</button>
+<button onClick=change("yellow")>Yellow</button>
+<button onClick=change("blue")>Blue</button>
+<button onClick=change("black")>Black</button>
+<button onclick=change("gray")>Erase</button>
+    </div>
+    <div class="butcon">
+      <button onClick="window.location.reload()">Start A New Sketch</button>
+    </div>
+    </div>
 	</body>
 </html>
