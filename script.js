@@ -41,3 +41,4 @@ function change(color) {
 function reload() {
 	location.reload()
 }
+// got a new computer so testing git link up
